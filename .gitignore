@@ -46,3 +46,11 @@ Thumbs.db
 *_cache/
 *.quarto_ipynb*
 EOF
+
+## Llave privada del equipo
+.age/key.txt
+ 
+## Los archivos .age (encriptados)
+## sí deben trackearse con DVC
+!data/raw/*.age
+!data/processed/*.age
