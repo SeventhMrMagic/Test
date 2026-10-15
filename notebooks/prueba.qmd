@@ -6,3 +6,9 @@ format: html
 ```{python}
 import pandas as pd
 ```
+
+
+```{python}
+data = pd.read_csv("../data/raw/data_test.csv")
+data.head()
+```
